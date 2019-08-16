@@ -1,0 +1,41 @@
+.con {
+    width: 100%;
+}
+.con >  * {
+    float: left;
+}
+.con1{
+    float: left;
+    width: 40%;
+}
+.con2{
+    float: left;
+    width: 55%;
+}
+.con:after,.info-box:after {
+    float: none;
+    clear: both;
+}
+.ib1,.ib2 {
+    width: 47%;
+    float: left;
+}
+.ib2:after {
+    float: none;
+    clear: both;
+}
+.details,.info-box {
+    width: 100%;
+    display: block;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+.dt,.ut,.appt,.tt {
+    box-shadow: 0px 0px 5px blue;
+    width: 70%
+}
+.map {
+    height:200px;
+}

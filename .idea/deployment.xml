@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ec2 root" traceLevel="DETAILS" autoUploadExternalChanges="true" compareModeInSync="TIMESTAMP">
+    <serverData>
+      <paths name="ec2 root">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/html/dropandrun/backend" local="$PROJECT_DIR$" web="dropandrun/backend" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

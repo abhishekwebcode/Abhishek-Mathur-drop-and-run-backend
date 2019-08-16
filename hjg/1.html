@@ -1,0 +1,372 @@
+<html lang="en">
+<head>
+  <title>Form- Fill your details</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="progress-wizard.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="univ.css" rel="stylesheet" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!-- or -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <style>
+  
+  body{background-color:#ECF7FF;}
+  
+  </style>
+
+
+</head>
+  <body>
+  <div class="header" style="">
+<div class="row">
+<div class="col-xs-2 col-sm-offset-1">
+
+  <img src="logo.jpeg" class="img-responsive img-circle" alt="logo">
+  </div>
+  <div class="col-xs-offset-1 log-siz">
+      <h3 class="pull-left">DROP</h3><h5 class="pull-left">&nbsp;&nbsp;AND&nbsp;&nbsp;</h5><h3 class="pull-left">RUN</h3>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="alert alert-default">
+  <h3 style="text-align:center;">Driver's Application Form</h3>
+</div>
+</div>
+<div class="container">
+<div class="alert alert-default">
+  
+      <ul class="progress-indicator">
+          <li class="completed"> <span class="bubble"></span> BASIC INFO </li>
+          <li class=""> <span class="bubble"></span> VEHICLE INFO </li>
+          <li class=""> <span class="bubble"></span> EMPLOYMENT HISTORY </li>
+      </ul>
+  
+</div>
+</div>
+
+
+<form>
+      <div class="section1">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+  <h4>POSITION TYPE</h4>
+  
+  <label class="radio-inline" for="pos_typ1">
+      <input id="pos_typ1" type="radio" required name="optradio">Owner Operator
+    </label>&nbsp&nbsp&nbsp&nbsp&nbsp
+    <label id="pos_typ2" class="radio-inline">
+      <input id="pos_typ2" type="radio" required name="optradio">Employee Driver
+    </label>
+    
+</div>
+</div>
+</div>
+
+<br>
+<div class="container">
+<div class="row">
+<div class="col-sm-12" id="nameform">
+	  <label for="how_did">How did you become aware of the opportunity at DropNRun?</label><input id="how_did" type="text" required class="form-control">
+	  </div>
+	  </div>
+
+</div>
+<br>
+<div class="container">
+
+<div class="row">
+
+<div class="col-sm-12">
+ <h4>CONTACT INFORMATION</h4>
+</div>
+</div>
+<div class="row">
+
+<div class="col-sm-4">
+<label for="fir_nam">First Name:</label><br>
+    <input type="text" id="fir_nam" required class="form-control"  placeholder="Enter First Name">
+</div>
+
+
+
+
+
+<div class="col-sm-4">
+<label for="mid_nam">Middle Name:</label><br>
+    <input type="text" id="mid_nam" required class="form-control"  placeholder="Enter Middle Name">
+</div>
+
+
+<div class="col-sm-4">
+<label for="las_nam">Last Name:</label><br>
+    <input type="text" id="las_nam" required class="form-control"  placeholder="Enter Last Name">
+</div>
+
+
+
+
+</div>
+</div>
+
+<div class="container">
+
+<br>
+<div class="row">
+
+<div class="col-sm-3">
+<label for="str_add">Street Address:</label><br>
+    <input type="text" id="str_add" required class="form-control"  placeholder="Enter Street Address">
+</div>
+
+
+
+
+
+		<div class="col-sm-3">
+		<div>
+      <label for="cit" required>City:</label><br/>
+	  
+         <select class="form-control" required id="cit">
+		  
+    <option selected>City1</option>
+    <option>City2</option>
+    <option>City3</option>
+   
+  </select>
+ 
+      
+</div>
+		</div>
+
+
+	<div class="col-sm-3">
+		<div>
+      <label for="pro">Province:</label><br/>
+	  
+         <select class="form-control" required id="pro">
+		  
+    <option value="on" selected>Prov1</option>
+    <option value="off">Prov2</option>
+  
+   
+  </select>
+ 
+      
+</div>
+		</div>
+
+<div class="col-sm-3">
+<label for="pos_cod">Postal Code:</label><br>
+    <input type="text" id="pos_cod" required class="form-control"  placeholder="Enter Postal Code">
+</div>
+
+
+
+
+
+</div>
+
+
+<br>
+<div class="row">
+
+
+
+		<div class="col-sm-3">
+		<div>
+      <label for="liv_her">Lived here for:</label><br/>
+	  
+         <select name="post" required class="form-control" id="liv_her">
+		  
+    <option value="1" selected>1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+   
+  </select>
+ 
+      
+</div>
+		</div>
+
+
+
+<div class="col-sm-3">
+<label for="hom_pho">Home Phone Contact:</label><br>
+    <input type="number" id="hom_pho" required required class="form-control"  placeholder="Enter Phone Contact">
+</div>
+
+<div class="col-sm-3">
+<label for="cel_num">Cell Number:</label><br>
+    <input type="number" id="cel_num"required required class="form-control"  placeholder="Enter Cell Number">
+</div>
+
+<div class="col-sm-3">
+<label for="email">Email:</label><br>
+    <input type="email" id="email" required class="form-control"  placeholder="Enter Email">
+</div>
+
+
+
+
+
+</div>
+</div>
+
+<br>
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+  <h4>Previous Address if Present Address is Less Than 3 years:</h4>
+  
+  
+  
+  
+  </div>
+  </div>
+  
+  <div class="row">
+
+<div class="col-sm-3">
+<label for="str_add2">Street Address:</label><br>
+    <input type="text" id="str_add2" required class="form-control"  placeholder="Enter Street Address">
+</div>
+
+
+
+
+
+		<div class="col-sm-3">
+		<div>
+      <label for="cit2">City:</label><br/>
+	  
+         <select name="post" required class="form-control" id="cit2">
+		  
+    <option value="male" selected>City1</option>
+    <option value="female">City2</option>
+    <option value="transgender">City3</option>
+   
+  </select>
+ 
+      
+</div>
+		</div>
+
+
+	<div class="col-sm-3">
+		<div>
+      <label for="pro2">Province:</label><br/>
+	  
+         <select name="post" required class="form-control" id="pro2">
+		  
+    <option value="on" selected>On</option>
+    <option value="off">Off</option>
+  
+   
+  </select>
+ 
+      
+</div>
+		</div>
+
+<div class="col-sm-3">
+<label for="pos_cod2">Postal Code:</label><br>
+    <input type="text" id="pos_cod2" required class="form-control"  placeholder="Enter Postal Code">
+</div>
+
+
+
+
+
+</div>
+
+
+  </div>
+  <br>
+  <div class="container">
+<div class="row">
+<div class="col-sm-4">
+  <h5>Are you a Canadian Critizen</h5>
+  
+  <label required class="radio-inline">
+      <input type="radio" required name="tradio">Yes
+    </label>&nbsp &nbsp&nbsp&nbsp&nbsp
+    <label class="radio-inline">
+      <input type="radio" required name="adio">No
+    </label>
+    
+</div>
+<div class="col-sm-4">
+ <h5>Are you legally eligible to work in Canada</h5>
+  
+  <label class="radio-inline ">
+      <input type="radio" required name="opradio">Yes
+    </label>&nbsp &nbsp&nbsp&nbsp&nbsp
+    <label class="radio-inline">
+      <input type="radio" name="optrad" required>No
+    </label>
+    
+</div>
+<div class="col-sm-4">
+  <h5>Do you have a valid passport</h5>
+  
+  <label class="radio-inline">
+      <input type="radio" name="optradio" required>Yes
+    </label>&nbsp &nbsp&nbsp&nbsp&nbsp
+    <label class="radio-inline">
+      <input type="radio" name="opt" required>No
+    </label>
+    
+</div>
+</div>
+</div>
+<br>
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<label for="soc_ins">Social Insurance Number:</label><br/>
+    <input type="text" id="soc_ins" required class="form-control"  placeholder="Socail Insurance Number">
+</div>
+
+<div class="col-sm-6">
+<label for="dat_of">Date of Birth</label><br/>
+    <input type="Date" required id="dat_of" required class="form-control">
+</div>
+
+
+</div>
+</div>
+</div>
+<br>
+<div class="container">
+<div class="row">
+	<div class="col-sm-2">
+    <button type="button" class="btn btn-no-col pull-left">Close</button>
+	</div>
+    <div class="col-sm-6">
+    </div>
+	
+	<div class="col-sm-4">
+            <a href='2.html'><button type="submit" class="btn pull-right btn-col pull-right">Continue</button></a>
+	 <button type="button" class="btn pull-right btn-no-col pull-rightt">Save& Close</button>&nbsp
+	
+	</div>
+</div>
+</div>
+</form>
+
+<script>
+$("input").addClass("animated");
+$("input").addClass("bounceInLeft");
+$("label").addClass("animated");
+$("label").addClass("bounceInRight");
+ </script>
+</body>
+
+</html>
